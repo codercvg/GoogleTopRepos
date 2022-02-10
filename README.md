@@ -1,6 +1,15 @@
 # My site
+Hi, I got the question and also understand what I have to do. But as coding requires a practice and also I am not very sharp in django. Also I have to submit some reports and my minors are going to be held from 14. Due to these I was not able to code the full program.
+
+But I got the algorithem to extract the top repos of Google, Microsoft, and Facebook and I extracted All the repos of google from github
+Algo:
+1. Firstly I Extract all the Repos of google from the github using .get() in my python program by calling the api
+2. Now we need the top 10 (Say) repos. For this We use the counts for froks. Higher the Forks count top the reposotory is. So using coding I will extract out top 10 counts of forks
+3. And also tha name of each repos
+4. Using sort() and direction() we will extract of the oldest m repos
 
 
+These are all the reposotories of the google 
 **Repos** 
 
 {'id': 1936771, 'node_id': 'MDEwOlJlcG9zaXRvcnkxOTM2Nzcx', 'name': 'truth', 'full_name': 'google/truth', 'private': False, 'owner': {'login': 'google', 'id': 1342004, 'node_id': 'MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=', 'avatar_url': 'https://avatars.githubusercontent.com/u/1342004?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/google', 'html_url': 'https://github.com/google', 'followers_url': 'https://api.github.com/users/google/followers', 'following_url': 'https://api.github.com/users/google/following{/other_user}', 'gists_url': 'https://api.github.com/users/google/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/google/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/google/subscriptions', 'organizations_url': 'https://api.github.com/users/google/orgs', 'repos_url': 'https://api.github.com/users/google/repos', 'events_url': 'https://api.github.com/users/google/events{/privacy}', 'received_events_url': 'https://api.github.com/users/google/received_events', 'type': 'Organization', 'site_admin': False}, 'html_url': 'https://github.com/google/truth', 'description': 'Fluent assertions for Java 
